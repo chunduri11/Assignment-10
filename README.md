@@ -20,6 +20,6 @@ I am including only convolution layers(3x3) as part of the below table, not cosi
 | Conv(3x3) | 16x16x12 | **45x45x45** | **8** |
 
 
-The reason why the receptive filed jumps to 45 from 29 is very simple, the jump at that stage is 8 due to three strdided concolutions of stride 2 before this layers. Including this this in the receptive field calculation will give us 45 as the receptive field at this layer.
+The reason why the receptive filed jumps to 45 from 29 is very simple, the **jump** at that stage is **8** due to three strdided concolutions of stride 2 each before this layers. Including this in the receptive field calculation will give us 45 as the receptive field at this layer.
 
 ![title](https://cdn-images-1.medium.com/max/1200/1*gtEtvAQqaAubgvfQycgnyQ.png)
